@@ -12,7 +12,7 @@ const Logout = () => {
 const Dashboard = (props) => {
   return (
     <View style={{flex:1, justifyContent: 'center', alignItems: 'center', backgroundColor: "lightgreen"}}>
-      <Text>Hurrah!... We are in the Anonymouse Dashboard</Text>
+      <Text>Hurrah!... We are in the PhoneAuth Dashboard</Text>
       <TouchableOpacity
         onPress={() => Logout()}
         style={{
